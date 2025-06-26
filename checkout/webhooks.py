@@ -11,7 +11,7 @@ import stripe
 @require_POST
 @csrf_exempt
 def webhook(request):
-"""Listen for webhooks from Stripe"""
+    """Listen for webhooks from Stripe"""
     print("=== WEBHOOK VIEW DEBUG START ===")
     
     # Setup
